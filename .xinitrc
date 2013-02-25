@@ -16,6 +16,8 @@ setxkbmap latam
 numlockx
 .screenlayout/init_screen.sh &
 clipit &
+dropbox start &
+mpd &
 
 # exec gnome-session
 # exec startkde
