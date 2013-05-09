@@ -18,6 +18,7 @@ numlockx
 clipit &
 dropbox start &
 mpd &
+export BROWSER=chromium &
 
 # exec gnome-session
 # exec startkde
