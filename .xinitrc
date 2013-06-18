@@ -14,11 +14,12 @@ fi
 sudo dhcpcd
 setxkbmap latam
 numlockx
-.screenlayout/init_screen.sh &
+~/.screenlayout/init_screen.sh &
 clipit &
 dropbox start &
 mpd &
-export BROWSER=chromium &
+export BROWSER="chromium"
+export EDITOR="vim" 
 
 # exec gnome-session
 # exec startkde

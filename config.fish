@@ -1,6 +1,9 @@
 set PATH $PATH /sbin
 set PATH $PATH /usr/sbin
 
+set fish_plugins git node
+
+
 alias gs="git status"
 
 function fish_prompt --description 'Write out the prompt'
@@ -41,3 +44,6 @@ function fish_prompt --description 'Write out the prompt'
  
     end
 end
+
+
+cd ~/workspace/qa-tool
